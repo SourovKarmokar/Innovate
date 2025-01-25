@@ -16,6 +16,10 @@ ul , li {
 }
 
 
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8px;
+}
+
 /* COMMON CSS END */
 
 
@@ -88,15 +92,90 @@ ul , li {
 
 }
 
-#banner .banner-details {
+#banner .row  .banner-details h1 {
     font-family: "Open Sans", serif;
     font-weight: 700;
     font-size: 84px;
-}
-
-#banner .row .banner-details p{
     text-transform: capitalize;
     color: #FAFAFE;
+    line-height: 100px;
 
 }
+#banner .row  .banner-details p {
+    font-family: "Paprika", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #E6E5F3;
+    width: 715px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    line-height: 40px;
+    position: relative;
+
+}
+
+#banner .row  .banner-details button{
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #1BBF00;
+    margin-right: 28px;
+    border-radius: 1px solid #1BBF00 ;
+    position: relative;
+    z-index: 3;
+}
+
+#banner .row  .banner-details button:hover {
+    background: transparent;
+    border: 1px solid  #1BBF00 ;
+
+}
+
+#banner .row  .banner-details a{
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #1BBF00;
+    position: relative;
+    z-index: 3;
+  
+}
+#banner .row  .banner-details a:hover {
+    background: transparent;
+    border: 1px solid  #1BBF00 ;
+}
+#banner .row  .banner-details  .image_element{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 31px;
+    margin-bottom: 77px;
+    z-index: 0 ;
+    
+   
+}
 /* BANNER PART END */
+
+
+/* COUNTER PART START  */
+#counter{
+    padding: 283px 0;
+    position: relative;
+}
+
+#counter .counter-shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+/* COUNTER PART START  */
