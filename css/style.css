@@ -87,4 +87,16 @@ ul , li {
     z-index: -1;
 
 }
+
+#banner .banner-details {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 84px;
+}
+
+#banner .row .banner-details p{
+    text-transform: capitalize;
+    color: #FAFAFE;
+
+}
 /* BANNER PART END */
