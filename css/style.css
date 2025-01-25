@@ -8,6 +8,7 @@
 a{
     text-decoration: none;
     display: inline-block;
+    
 }
 
 ul , li {
@@ -16,3 +17,74 @@ ul , li {
 
 
 /* COMMON CSS END */
+
+
+/* NAVBAR PART START */
+.navbar {
+    background-color: rgba(22, 12, 109, 0.5);
+    padding: 18px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #fff;
+    transition: all linear 0.5s ;
+   
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #1BBF00;
+}
+
+.navbar button{
+    padding: 14px 28px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 100px;
+    background: #1BBF00;
+    border:1px solid #1BBF00;
+    color: #fff;
+}
+
+.navbar button:hover{
+    background: transparent;
+    border: 1px solid  #1BBF00 ;
+} 
+
+/* NAVBAR PART END */
+
+
+/* BANNER PART START */
+#banner {
+    background: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 246px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(106, 98, 197, 0.9);
+    z-index: -1;
+
+}
+/* BANNER PART END */
