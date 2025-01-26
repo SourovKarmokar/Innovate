@@ -178,4 +178,45 @@ h1,h2,h3,h4,h5,h6,p{
     right: 0;
     
 }
+
+#counter .row .cart-text h2 {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+  
+  opacity: 1; 
+  border-radius: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; /* ExtraBold */
+  font-size: 64px;
+  line-height: 68px;
+  letter-spacing: 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1BBF00;
+    
+   
+}
+#counter .row .cart-text p {
+    opacity: 1; /* 100% */
+    border-radius: 0px;
+  
+    /* Typography */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0%; /* Equivalent to 0px */
+    text-align: left; /* Adjust based on alignment preference */
+  
+    /* Fill (Background color) */
+    color: #141135; /* Text color, if applicable */
+    text-align: center;
+
+}
+
 /* COUNTER PART START  */
