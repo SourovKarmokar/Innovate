@@ -14,7 +14,9 @@ a{
 ul , li {
     list-style: none;
 }
-
+/* body{
+    overflow-x: hidden;
+} */
 
 h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8px;
@@ -498,7 +500,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* IMPACT PART START */
 #impact{
-    padding: 100px 0;;
+    padding: 100px 0;
+    position: relative;
 }
 
 
@@ -521,6 +524,46 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 75px;
     line-height: 30px;
     width: 558px;
+}
+
+#impact .impact-items .impact-text{
+    margin-left: 30px;
+   
+}
+
+#impact .impact-items .impact-text p{
+
+  
+    font-family: 'Paprika', sans-serif;
+    
+    opacity: 1; /* 100% opacity */
+    border-radius: 0px;
+    width: 343px;
+    color: #726E9E;
+    
+    font-weight: 400; /* Regular */
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    
+    text-align: center; /* Based on alignment buttons */
+}
+
+#impact .impact-items .impact-text h6{
+    font-family: "Open Sans", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+#impact .impact-shap img {
+    position: absolute;
+    bottom: 0;
+    right: -110px;
+
 }
 
 /* IMPACT PART END */
