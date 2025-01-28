@@ -502,6 +502,7 @@ h1,h2,h3,h4,h5,h6,p{
 #impact{
     padding: 100px 0;
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -540,6 +541,7 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 0px;
     width: 343px;
     color: #726E9E;
+    margin: 0 auto;
     
     font-weight: 400; /* Regular */
     font-size: 18px;
@@ -567,3 +569,96 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* IMPACT PART END */
+
+/* PLAN PART START */
+#plan{
+    padding: 100px 0;
+}
+#plan .text h2 {
+    font-family: "Open Sans", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+    margin: 0 auto;
+
+}
+#plan .card_part{
+    margin-top: 64px;
+    box-shadow: 0px 30px 60px 0px rgb(162, 169, 192, 0.15);
+    border-radius: 20px;
+    
+    
+}
+#plan .card_part .card{
+    width: 370px;
+    transition: all linear 0.5s ;
+    background-repeat: 20px;
+}
+#plan .card_part .card:hover{
+    background-color: #6b62c5;
+}
+#plan .card_part .card:hover h2{
+    color: #FAFAFE;
+}
+#plan .card_part .card:hover p{
+    color: #E6E5F3;
+}
+#plan .card_part .card h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #141135; /* Assuming this is the fill color */
+    padding: 60px 0 26px  0;
+    margin: 0 auto;
+    
+
+}
+#plan .card_part .card h4{
+    font-family: 'Nunito', sans-serif; /* Typography */
+    opacity: 100%; /* Opacity */
+    border-radius: 89px; /* Timer radius, assuming it's border-radius */
+    font-weight: 800; /* ExtraBold, 800 is typically the value for ExtraBold */
+    font-size: 48px; /* Font size */
+    line-height: 50px; /* Line height */
+    letter-spacing: 0px; /* Letter spacing, assuming A|Opx means 0px */
+    text-align: center; /* Alignment, assuming center alignment */
+    background-color: transparent; /* Fill color */
+    color: #1BBF00;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    position: relative;
+
+ 
+}
+#plan .card_part .card h4 span{
+  font-family: 'Quicksand', sans-serif; /* Quicksand font */
+  font-weight: 500; /* Medium weight */
+  font-size: 24px;
+  line-height: 25px; /* Adjust as needed */
+  letter-spacing: 0px;
+  text-align: center; /* Adjust alignment if needed */
+  color: #1BBF00; /* Green fill color */
+  opacity: 1; /* 100% opacity */
+  position: absolute;
+    top: 2px;
+    left: 125px;
+
+}
+#plan .card_part .card p {
+    font-family: 'Paprika', sans-serif; /* Typography */
+    font-weight: 400; /* Regular, 400 is typically the value for Regular */
+    font-size: 18px; /* Font size */
+    line-height: 32px; /* Line height */
+    letter-spacing: 0px; /* Letter spacing, assuming A | Opx means 0px */
+    text-align: center; /* Alignment, assuming center alignment */
+   width: 252px;
+   margin: 0 auto;
+   padding-bottom: 60px;
+    color: #726E9E;
+   
+}
+
+/* PLAN PART END */
