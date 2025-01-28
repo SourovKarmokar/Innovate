@@ -379,7 +379,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 18px;
     line-height: 30px;
     width: 350px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 56px;
 }
 #do .do-content button{
@@ -391,8 +391,17 @@ h1,h2,h3,h4,h5,h6,p{
     background: #1BBF00;
     border:1px solid #1BBF00;
     color: #fff;
-    margin-top: 56px;
     margin-bottom: 125px;
+}
+
+#do .do-content button:hover{
+    background: transparent;
+    border: 1px solid  #1BBF00 ;
+    transition: all linear 0.5s ;
+}
+#do .do-content button:hover span{
+    color:#000;
+
 }
 
 #do .do-item{
@@ -444,6 +453,45 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
 }
 
+#do .text_content .demo button{
+    font-family: "Open Sans", serif;
+    font-style: 18px;
+    font-weight: 700;
+    
+    color: #141135;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    transition: all linear 0.5s ;
+    text-transform: capitalize;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+#do .text_content .demo button::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 20%;
+   height: 100%;
+   background-color: rgb(27, 191, 0, 0.3);
+   border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: all linear 0.5s ;
+    z-index: -1;
+}
+
+#do .text_content .demo button:hover::after{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
 
 
 /* DO PART END */
