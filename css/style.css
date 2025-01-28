@@ -662,3 +662,111 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* PLAN PART END */
+
+
+/* SLIDER PART START */
+#slider{
+    padding: 100px 0;
+    background-color: #f8f8ff;
+
+}
+
+#slider .text{
+    font-family: 'Open Sans', sans-serif; /* Open Sans font */
+  font-weight: bold; /* Bold weight */
+  font-size: 48px;
+  line-height: auto; /* Auto line height */
+  letter-spacing: 0px;
+  text-align: left; /* Adjust alignment if needed */
+  color: #141135; /* Dark blue/purple fill color */
+  opacity: 1; /* 100% opacity */
+  
+}
+
+
+#slider .slider-details{
+    padding-top: 120px;
+    padding-bottom: 55px;
+    background: #ffff;
+    border-radius: 20px;
+    box-shadow: -15 30px 50px 0px rgba(171, 175, 199, 0.30);
+    margin-top: 152px;
+    position: relative;
+}
+
+#slider .slider-details p{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Paprika', sans-serif; /* Paprika font */
+  font-weight: normal; /* Regular weight */
+  font-size: 24px;
+  line-height: 40px; /* Line height set to 40px */
+  letter-spacing: 0px;
+  text-align: center; /* Align text to center */
+  color: #726E9E; /* Purple fill color */
+  opacity: 1; /* 100% opacity */
+}
+
+#slider .slider-details h5{
+    font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #221A2C;
+      opacity: 1;
+}
+#slider .slider-details .ceo p{
+    font-family: 'Paprika', sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #726E9E;
+      opacity: 1;
+}
+
+#slider .profile img{
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#carouselExampleControls button{
+    width: 35px;
+    height: 35px;
+    background: red;
+
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+   
+    position: absolute;
+    top: 245px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-inner{
+    overflow: hidden;
+    background: transparent;
+    box-shadow: -15 30px 50px 0px rgba(171, 175, 199, 0.30);
+}
+
+/* SLIDER PART END */
