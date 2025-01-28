@@ -495,3 +495,32 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* DO PART END */
+
+/* IMPACT PART START */
+#impact{
+    padding: 100px 0;;
+}
+
+
+#impact .impact-heading h4 {
+    font-family: "Open Sans", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+}
+
+#impact .impact-heading p{
+    font-family: "Paprika", serif;
+    text-align: center;
+    font-size: 18px;
+    color: #726E9E;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 23px;
+    margin-bottom: 75px;
+    line-height: 30px;
+    width: 558px;
+}
+
+/* IMPACT PART END */
