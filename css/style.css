@@ -770,3 +770,26 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* SLIDER PART END */
+
+/* LIKE PART START */
+#like{
+    padding: 100px 0;
+}
+#like .blog_main .like{
+    font-family: "Open Sans", serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #030314;
+  line-height: 65px;
+   letter-spacing: -2px;
+   margin-bottom: 64px;
+  margin-left: 73px;
+
+}
+#like .video {
+    background-color: #C4C4C4;
+    height: 220px;
+    border-radius: 20px;
+}
+
+/* LIKE PART END */
